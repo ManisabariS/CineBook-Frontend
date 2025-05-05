@@ -1,0 +1,49 @@
+.rbc-calendar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .rbc-header {
+    background-color: #f8fafc;
+    padding: 10px 0;
+    font-weight: 600;
+    color: #334155;
+  }
+  
+  .rbc-time-header {
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .rbc-time-view {
+    border: none;
+  }
+  
+  .rbc-time-content {
+    border-top: 1px solid #e2e8f0;
+  }
+  
+  .rbc-time-gutter {
+    color: #64748b;
+    font-size: 0.8em;
+  }
+  
+  .rbc-event {
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .rbc-event:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .rbc-today {
+    background-color: #f0f9ff;
+  }
+  
+  .rbc-off-range-bg {
+    background-color: #f8fafc;
+  }
+  
+  .rbc-current-time-indicator {
+    background-color: #ef4444;
+    height: 2px;
+  }
